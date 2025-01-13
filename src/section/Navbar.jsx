@@ -46,7 +46,7 @@ const Navbar= () =>{
                 href="/"
                 className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
               >
-                <img src="public/assets/logo2.svg" alt="Logo" className="h-12 w-auto" />
+                <img src="assets/logo2.svg" alt="Logo" className="h-12 w-auto" />
               </a>
               <button
                 onClick={toggleMenu}
