@@ -27,24 +27,20 @@ export const navLinks = [
   export const clientReviews = [
     {
       id: 1,
-      name: 'Mike Zimmer',
-      position: 'CEO of Reno-Wi',
+      name: 'Reno- wi',
       img: 'assets/reno-wi.svg',
       review:
         'Klaudiusz is a true master of his craft! I had a unique idea for our website and worried no one could bring it to life. Klaudiusz not only met but exceeded my expectations! The entire process was well-organized, and every change I requested was implemented swiftly. The final result is even better than I imagined!',
     },
     {
       id: 2,
-      name: 'Steven Rogers',
-      position: 'CEO of Martcom',
-      img: 'assets/martcom.png',
+      name: 'Martcom',
       review:
         'Fantastic collaboration! Klaudiusz built our online store from scratch, and the results surpassed my expectations. The site is intuitive, fast, and the design really attracts customers. Klaudiusz listened closely to my feedback and made adjustments quickly and effectively. Highly recommend.',
     },
     {
       id: 3,
-      name: 'John Dohsas',
-      position: 'Project Manager at UrbanTech ',
+      name: 'Osintownia',
       img: 'assets/osint.png',
       review:
         '"I couldn’t be happier with Klaudiusz’s work! He developed a professional website for my consulting business, and it looks incredible. Klaudiusz paid attention to every detail and went above and beyond to make sure everything was perfect. My clients have been complimenting the site since it launched. Outstanding experience!',
@@ -52,7 +48,7 @@ export const navLinks = [
     {
       id: 4,
       name: 'Ether Smith',
-      position: 'CEO of BrightStar Enterprises',
+      
       img: 'assets/review4.png',
       review:
         'Klaudiusz was a pleasure to work with. He took my rough ideas and turned them into a beautiful, functional website. Communication was easy, and Klaudiusz always kept me informed throughout the project. I’m thrilled with the result and already planning to work with him on future projects. Highly recommended',
