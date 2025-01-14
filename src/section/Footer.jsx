@@ -9,14 +9,14 @@ const Footer = () => {
         <p>Privacy Politicy</p>
       </div>
       <div className='flex gap-3'>
-        <div className='social-icon'> 
-          <img src="/assets/github.svg" alt="github" className='w-1/2 h-1/2' />
+        <div className='social-icon' href="https://github.com/Klaudiusz321"> 
+          <img  src="/assets/github.svg" alt="github" className='w-1/2 h-1/2'  />
         </div>
-        <div className='social-icon'> 
-          <img src="/assets/twitter.svg" alt="twitter" className='w-1/2 h-1/2' />
+        <div className='social-icon' href="https://x.com/Claudiusdesign"> 
+          <img  src="/assets/twitter.svg" alt="twitter" className='w-1/2 h-1/2'  />
         </div>
-        <div className='social-icon'> 
-          <img src="/assets/instagram.svg" alt="insagram" className='w-1/2 h-1/2' />
+        <div className='social-icon' href="https://www.instagram.com/klaudiusz_sroka/"> 
+          <img  src="/assets/instagram.svg" alt="insagram" className='w-1/2 h-1/2' />
         </div>
       </div>
       <p className='text-white-500'>© 2024 Klaudiusz. All rights reserved.</p>

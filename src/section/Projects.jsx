@@ -58,10 +58,13 @@ const Projects = () => {
                         </div>
                         ))}
                     </div>
+                    
+                    <button onClick={() => window.open(currentProject.href)}>
                     <a className='flex items-center gap-2 cursor-pointer text-white-600'>
                         <p>Check Live Site</p>
                         <img src="/assets/arrow-up.png" className='w-3 h3' />
                     </a>
+                    </button>
                 </div>
                 <div className='flex justify-between items-center mt-7'>
                   <button className='arrow-btn' onClick={() =>handleNavigation('previous')}>
@@ -74,18 +77,20 @@ const Projects = () => {
 
             </div>
             <div className='border border-black-300 bg-black-200 rounded-lg h-96 md:h-full'>
-              <Canvas>
-                <ambientLight intensity={Math.PI/2}/>
-                <directionalLight position={[10,10,5]}/>
-                <Center>
-                  <Suspense fallback={<CanvasLoader />}>
-                    <group scale={6} position={[0, -2, 0]} rotation={[0, -0.1, 0]}>
-                        <DemoComputer />
-                    </group>
-                  </Suspense>
-                </Center>
-                <OrbitControls maxPolarAngle={Math.PI/2} enableZoom={false}/>
-              </Canvas>
+            <Canvas>
+              <ambientLight intensity={Math.PI / 2} />
+              <directionalLight position={[10, 10, 5]} />
+              <Center>
+                <Suspense fallback={<CanvasLoader />}>
+                  <group scale={6} position={[0, -2, 0]} rotation={[0, -0.1, 0]}>
+                    <DemoComputer screenshot={currentProject.screenshot} />
+                  </group>
+                </Suspense>
+              </Center>
+              <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={true} />
+            </Canvas>
+
+
             </div>
           </div>
         </section>

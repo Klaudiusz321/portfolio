@@ -49,7 +49,7 @@ export const navLinks = [
       id: 4,
       name: 'Ether Smith',
       
-      img: 'assets/review4.png',
+      img: 'assets/mw.svg',
       review:
         'Klaudiusz was a pleasure to work with. He took my rough ideas and turned them into a beautiful, functional website. Communication was easy, and Klaudiusz always kept me informed throughout the project. I’m thrilled with the result and already planning to work with him on future projects. Highly recommended',
     },
@@ -62,6 +62,7 @@ export const navLinks = [
       subdesc:
         'Reno-Wi is your go-to destination for all things renovation. From expert home remodeling services to innovative design solutions, our team transforms your space with precision and care. Explore our website for inspiration, project galleries, and easy booking for a personalized renovation experience tailored to your vision.',
       href: 'https://reno-wi.de/',
+      screenshot: '/assets/reno-wi.png',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/reno-wi.svg',
       logoStyle: {
@@ -84,13 +85,14 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Martcom',
-      desc: 'The Martcom project aimed to create a sleek, user-friendly website for an innovative internet services provider specializing in high-speed broadband, fiber optic installations, and customized internet solutions for both residential and business clients. Martcom needed a digital presence that reflects its commitment to advanced technology, reliable service, and customer satisfaction.',
+      title: 'Mw-IT-solutions',
+      desc: 'The Mw-IT-solutions project aimed to create a sleek, user-friendly website for an innovative internet services provider specializing in high-speed broadband, fiber optic installations, and customized internet solutions for both residential and business clients. Martcom needed a digital presence that reflects its commitment to advanced technology, reliable service, and customer satisfaction.',
       subdesc:
-        'With Cost calculator customers can calculate the cost of their internet connection and services. Made all in Javascript.',
-      href: 'http://martcom.com.pl/',
+        'With Cost calculator customers can calculate the cost of their internet connection and services.',
+      href: 'https://mw-it-solutions.pl/',
+      screenshot: '/assets/mw.png',
       texture: '/textures/project/project2.mp4',
-      logo: '/assets/martcom.png',
+      logo: '/assets/mw.svg',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -123,6 +125,7 @@ export const navLinks = [
       subdesc:
         'Visitors to OSINT.pl can learn about various methods and tools used in OSINT, gaining insights into effectively collecting and analyzing data from sources such as the internet, social media, and public records. The platform emphasizes education and the development of analytical skills, providing training tailored to users needs.',
       href: 'https://osintownia.pl/en/home-eng/',
+      screenshot: '/assets/osint.png',
       texture: '/textures/project/project5.mp4',
       logo: '/assets/osint.svg',
       logoStyle: {
