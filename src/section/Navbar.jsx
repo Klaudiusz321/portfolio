@@ -64,11 +64,7 @@ const Navbar= () =>{
               </nav>
             </div>
           </div>
-          <div className={`nav-sidebar ${isOpen ? "max-h-screen" : "max-h-0"}`}>
-            <nav className="p-5">
-              <Navitems />
-            </nav>
-          </div>
+          
         </header>
       );
     };

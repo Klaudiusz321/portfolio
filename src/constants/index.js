@@ -22,6 +22,11 @@ export const navLinks = [
       name: 'Contact',
       href: '#contact',
     },
+    {
+      id: 5,
+      name: 'Blog',
+      href: 'h#blog',
+    }
   ];
   
   export const clientReviews = [
@@ -56,6 +61,33 @@ export const navLinks = [
   ];
   
   export const myProjects = [
+    {
+      title: 'Tensor Calculator',
+      desc: 'My engeeniering thesis project. The Tensor Calculator is a web application that allows users to perform tensor operations and calculations with ease. The platform is designed to simplify complex tensor manipulations, making it accessible to students, researchers, and professionals in various fields, including physics, engineering, and data science.',
+      subdesc: 'Advance mathematical Tool for Tensor Calculations.',
+      href: 'https://itensor.online/',
+      screenshot: '/assets/scr1.png',
+      texture: '/textures/project/project2.mp4',
+      logo: '/assets/itensor_logo.svg',
+      logoStyle: {
+        backgroundColor: '#2A3816',
+        border: '0.2px solid #36801D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight3.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Wordpress',
+          path: '/assets/Wordpress-Logo.svg',
+        },
+        {
+          id: 2,
+          name: 'Elementor',
+          path: 'assets/Elementor-Logo-Symbol-Red.svg',
+        },
+      ],
+    },
     {
       title: 'Reno-wi website',
       desc: 'Bringing Your Home Improvement Dreams to Life.',
@@ -166,18 +198,10 @@ export const navLinks = [
   };
   
   export const workExperiences = [
-    {
-      id: 1,
-      name: 'Milioner',
-      pos: 'Co-founder of a company Liżme inc',
-      duration: 'Feature',
-      title: "Specialized in building custom WordPress solutions to meet diverse business needs, from personal blogs to complex e-commerce platforms.",
-      icon: '/assets/monay.svg',
-      animation: 'salute',
-    },
+    
     {
       id: 2,
-      name: 'Self-emplyed',
+      name: 'Graduated, Searching for a job',
       pos: 'Creating digital products', 
       duration: 'Present',
       title: "Specialized in building custom WordPress solutions to meet diverse business needs, from personal blogs to complex e-commerce platforms.",
@@ -196,10 +220,10 @@ export const navLinks = [
     {
       id: 4,
       name: 'Freelancer',
-      pos: 'Wordpress Developer',
-      duration: '2019 - 2021',
+      pos: 'Freelancer',
+      duration: '2019 - 2024',
       title: "Specialized in building custom WordPress solutions to meet diverse business needs, from personal blogs to complex e-commerce platforms.",
-      icon: '/assets/Wordpress-Logo.svg',
+      icon: '/assets/freelancer.svg',
       animation: 'salute',
     },
     
